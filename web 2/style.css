@@ -1,0 +1,107 @@
+h1{
+    text-align: center;
+    color: green;
+    font-size: 50px;
+    }
+
+    .navbar ul{
+        list-style-type: none;
+        background-color: bisque;
+        padding: 0px;
+        margin: 0px;
+
+    }
+    .navbar a{
+        color: green;
+        text-decoration: none;
+        padding:10px;
+        display:block;
+        text-align:center;
+    }
+    
+    .navbar a:hover{
+        background-color: antiquewhite;
+    }
+    .navbar li{
+       float:left;
+    }
+      img{
+
+      width: 520px;
+      position: absolute;
+      top: 18%;
+      left: 29%;
+   
+    }
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      form {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      input,
+    textarea {
+    width: 100%;
+     padding: 8px;
+     margin-bottom: 16px;
+      box-sizing: border-box;
+   }
+  
+   @media  screen and (max-width: 1020px){
+
+   img{
+      position: absolute;
+     width: 480px;
+      top: 20%;
+      left: 26%;
+    
+   }
+  }
+
+
+  @media  screen and (max-width: 860px){
+    img{
+      position: absolute;
+     width: 450px;
+      top: 20%;
+      left: 23%;
+    }
+  }
+
+  @media  screen and (max-width: 600px){
+    img{
+      position: absolute;
+     width: 350px;
+      top: 25%;
+      left: 20%;
+
+    }
+  }
+
+  @media  screen and (max-width: 600px){
+    img{
+      position: absolute;
+     width: 350px;
+      top: 27%;
+      left: 14%;
+    }
+  }
+  
+  @media  screen and (max-width: 390px){
+    img{
+      position: absolute;
+     width: 320px;
+      top: 32%;
+      left: 9%;
+    }
+  }
